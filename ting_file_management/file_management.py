@@ -1,6 +1,7 @@
 import sys
 
 
+# task 2 - thiago guarino
 def txt_importer(path_file):
     try:
         if (path_file.endswith('.txt')) is not True:
