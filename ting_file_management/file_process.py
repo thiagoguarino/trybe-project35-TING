@@ -25,7 +25,13 @@ def process(path_file, instance):
 
 # task 4 - thiago guarino
 def remove(instance):
-    """Aqui irá sua implementação"""
+    if len(instance) == 0:
+        print("Não há elementos")
+        return
+
+    path_file = instance.dequeue()
+
+    print(f"Arquivo {path_file['nome_do_arquivo']} removido com sucesso")
 
 
 # task 5 - thiago guarino
