@@ -1,4 +1,5 @@
 from ting_file_management.file_management import txt_importer
+import sys
 
 
 # task 3 - thiago guarino
@@ -36,4 +37,11 @@ def remove(instance):
 
 # task 5 - thiago guarino
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    try:
+        file_dict = instance.search(position)
+        output = f"""'nome_do_arquivo': '{file_dict['nome_do_arquivo']}'\n,
+            'qtd_linhas': {file_dict['qtd_linhas']}\n,
+            'linhas_do_arquivo': {file_dict['linhas_do_arquivo']}\n"""
+        sys.stdout.write(output)
+    except IndexError:
+        sys.stderr.write("Posição inválida")
