@@ -113,11 +113,12 @@
 
     c - instance a new queue - `project = Queue()`, call `process("statics/arquivo_teste.txt", project)`
 
-    d - declare in a variable `word1 = exists_word("pedro", project)`, `word2 = search_by_word("pedro", project)`
+    d - declare var `word1 = exists_word("pedro", project)`, `word2 = search_by_word("pedro", project)`
 
     e - print them - `print(word1)` and `print(word2)`
 
 6. how to execute the functions on: 
+
     a - `python3 ting_file_management/file_management.py` and `python3 ting_file_management/file_process.py`
 
     b - `python3 word_searches/word_search.py`
