@@ -109,9 +109,9 @@
 
     a - the files: file_management.py, file_process.py, word_search.py 
 
-    b - set the params: `a = txt_importer('statics/nome_pedro.txt')`, then print it: `print(a)`
+    b - set the params: `a = txt_importer('data/nome_pedro.txt')`, then print it: `print(a)`
 
-    c - instance a new queue - `project = Queue()`, call `process("statics/arquivo_teste.txt", project)`
+    c - instance a new queue - `project = Queue()`, call `process("data/arquivo_teste.txt", project)`
 
     d - declare var `word1 = exists_word("pedro", project)`, `word2 = search_by_word("pedro", project)`
 
