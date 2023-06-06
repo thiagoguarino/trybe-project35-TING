@@ -26,24 +26,24 @@
 
   *Description* | *Status*
   --- | :---:
-  1.1 - Será validado que o método `enqueue` deve adicionar um valor a fila, modificando seu tamanho | :heavy_check_mark:
-  1.2 - Será validado que o método `dequeue` deve remover o elemento a mais tempo na fila, modificando seu tamanho | :heavy_check_mark:
-  1.3 - Será validado que o método `search` deve buscar um valor na lista à partir de um índice | :heavy_check_mark:
-  1.4 - Será validado que o método `search` deve lançar uma exceção quando o índice for inválido | :heavy_check_mark:
-  2.1 - Será validado que ao executar o método `txt_importer` deve retornar uma estrutura contendo as linhas do arquivo | :heavy_check_mark:
-  2.2 - Será validado que ao executar o método `txt_importer` com um arquivo TXT que não exista, deve ser exibida a mensagem: `Arquivo {path_file} não encontrado` | :heavy_check_mark:
-  2.3 - Será validado que ao executar o método `txt_importer` com uma extensão diferente de `.txt`, deve ser exibida uma mensagem: `Formato inválido` | :heavy_check_mark:
-  3.1 - Será validado que ao executar a função `process` com o mesmo nome a execução deverá ser ignorada | :heavy_check_mark:
-  3.2 - Será validado que ao executar a função `process` com sucesso deverá retornar mensagem via `stdout` | :heavy_check_mark:
-  4.1 - Será validado que ao executar a função `remove` com sucesso deverá retornar mensagem via `stdout` | :heavy_check_mark:
-  4.2 - Será validado que ao executar a função `remove` um arquivo inexistente deverá retornar a mensagem `Não há elementos` | :heavy_check_mark:
-  5.1 - Será validado que ao executar a função `file_metadata` com sucesso deverá retornar mensagem via `stdout` | :heavy_check_mark:
-  5.2 - Será validado que ao executar a função `file_metadata` com posição inválida deverá retornar a mensagem `Posição inválida` | :heavy_check_mark:
-  6 - Implemente os testes para a classe `PriorityQueue` capaz de armazenar arquivos pequenos de forma prioritária | :heavy_check_mark:
-  7.1 - Será validado que ao executar a função `exists_word` com sucesso deverá retornar a mensagem | :heavy_check_mark:
-  7.2 - Será validado que ao executar a função `exists_word` com palavra inexistente deverá retornar uma lista vazia | :heavy_check_mark:
-  8.1 - Será validado que ao executar a função `search_by_word` com sucesso deverá retornar a mensagem | :heavy_check_mark:
-  8.2 - Será validado que ao executar a função `search_by_word` com palavra inexistente deverá retornar uma lista vazia | :heavy_check_mark:
+  1.1 - the `enqueue` method must add a value to the queue, modifying its size | :heavy_check_mark:
+  1.2 - the `dequeue` method should remove the oldest element in the queue, modifying its size | :heavy_check_mark:
+  1.3 - the `search` method must search for a value in the List using indexes | :heavy_check_mark:
+  1.4 - the `search` method should raise an exception when the index is invalid | :heavy_check_mark:
+  2.1 - when executing the `txt_importer` method it should return a structure containing the lines of the file | :heavy_check_mark:
+  2.2 - when executing the `txt_importer` method with a TXT file that does not exist, the message should be displayed: `Arquivo {path_file} não encontrado` | :heavy_check_mark:
+  2.3 - when executing the `txt_importer` method with an extension other than `.txt`, a message should be displayed: `Formato Inválido` | :heavy_check_mark:
+  3.1 - when executing the `process` function with a file that already exists in the queue, the execution must ignore it | :heavy_check_mark:
+  3.2 - when executing the function `process` successfully it should return message via `stdout` | :heavy_check_mark:
+  4.1 - when executing the `remove` function successfully, it should return a message via `stdout` | :heavy_check_mark:
+  4.2 - when executing the `remove` function a non-existent file should return the message `Não há elementos` | :heavy_check_mark:
+  5.1 - when successfully executing the `file_metadata` function it should return a message via `stdout` | :heavy_check_mark:
+  5.2 - when executing the `file_metadata` function with an invalid position, it should return the message `posição Inválida` | :heavy_check_mark:
+  6 - Implement the tests for the `PriorityQueue` class capable of storing small files as a priority | :heavy_check_mark:
+  7.1 - when executing the `exists_word` function successfully should return the correct structure | :heavy_check_mark:
+  7.2 - when executing the `exists_word` function with nonexistent word, it should return an empty List | :heavy_check_mark:
+  8.1 - when executing the `search_by_word` function successfully it should return the correct structure | :heavy_check_mark:
+  8.2 - when executing the `search_by_word` function with a nonexistent word, it should return an empty List | :heavy_check_mark:
 
 </details>
 
