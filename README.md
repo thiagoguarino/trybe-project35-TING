@@ -117,8 +117,10 @@
 
     e - print them - `print(word1)` and `print(word2)`
 
-6. how to execute the functions on: 
+6. how to execute the functions:
 
-    a - `python3 ting_file_management/file_management.py` and `python3 ting_file_management/file_process.py`
+    a - `python3 ting_file_management/file_management.py`
+    
+    b - `python3 ting_file_management/file_process.py`
 
-    b - `python3 word_searches/word_search.py`
+    c - `python3 word_searches/word_search.py`
