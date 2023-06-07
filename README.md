@@ -18,7 +18,7 @@
 
   <details>
     <summary>
-      <b>skills developed building the product</b>
+      <b>skills developed coding the project</b>
     </summary>
     <ul>
       <li>handling Stacks</li>
