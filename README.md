@@ -116,8 +116,9 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. To execute the app:
+  <details>
+  <summary><strong>How To Execute the App</strong></summary>
+    As of this moment there is no way to 'execute' this app.
 
-- instantiate a new Queue object
-
-- pass the new instance and other params to functions on theses files: file_process.py, word_search.py
+    **TO DO**: *create a Console App to provide an execution mode for this project.* 
+  </details>
