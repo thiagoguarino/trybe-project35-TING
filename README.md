@@ -116,4 +116,8 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. test the functions manually on each file. (file_management.py, file_process.py, word_search.py)
+5. To execute the app:
+
+- instantiate a new Queue object
+
+- pass the new instance and other params to functions on theses files: file_process.py, word_search.py
