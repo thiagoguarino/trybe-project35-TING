@@ -10,12 +10,23 @@
   - File management module that allows you to attach text files (TXT format);
   - Search module that allows operating search functions on attached files;
 
+  **This project is not focused on analysis of meanings or search for synonyms**
+  
   Stack: Python3, Pytest.
-
-  **In this project we will not focus on the analysis of meanings or search for synonyms**
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
+  <details>
+    <summary>
+      <b>skills developed building the product</b>
+    </summary>
+    <ul>
+      <li>handling Stacks</li>
+      <li>handling Queues</li>
+      <li>handling Linked Lists</li>
+      <li>handling Doubly Linked Lists</li>
+    </ul>
+  </details>
 
 ## PROJECT TASKS
 
@@ -105,22 +116,4 @@
 
 - `python3 -m pip install -r dev-requirements.txt`
 
-5. test the functions manually on each file.
-
-    a - the files: file_management.py, file_process.py, word_search.py 
-
-    b - set the params: `a = txt_importer('data/nome_pedro.txt')`, then print it: `print(a)`
-
-    c - instance a new queue - `project = Queue()`, call `process("data/arquivo_teste.txt", project)`
-
-    d - declare var `word1 = exists_word("pedro", project)`, `word2 = search_by_word("pedro", project)`
-
-    e - print them - `print(word1)` and `print(word2)`
-
-6. how to execute the functions:
-
-    a - `python3 ting_file_management/file_management.py`
-    
-    b - `python3 ting_file_management/file_process.py`
-
-    c - `python3 word_searches/word_search.py`
+5. test the functions manually on each file. (file_management.py, file_process.py, word_search.py)
