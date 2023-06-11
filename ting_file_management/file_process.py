@@ -44,4 +44,4 @@ def file_metadata(instance, position):
             'linhas_do_arquivo': {file_dict['linhas_do_arquivo']}\n"""
         sys.stdout.write(output)
     except IndexError:
-        sys.stderr.write("Posição inválida")
+        sys.stderr.write("Posição inválida\n")

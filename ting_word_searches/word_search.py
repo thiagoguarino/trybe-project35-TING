@@ -14,7 +14,7 @@ def exists_word(word, instance):
         }
         if len(result_data_dict["ocorrencias"]) > 0:
             results_list.append(result_data_dict)
-    return results_list
+    return print(results_list)
 
 
 # task 8 - thiago guarino
@@ -37,4 +37,4 @@ def search_by_word(word, instance):
         }
         if len(result_data_dict["ocorrencias"]) > 0:
             results_list.append(result_data_dict)
-    return results_list
+    return print(results_list)
