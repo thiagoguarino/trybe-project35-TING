@@ -1,5 +1,6 @@
 ## Trybe Project 35 - T.I.N.G - TRYBE IS NOT GOOGLE
 
+- MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)
 
 ## PROJECT OVERVIEW
 
