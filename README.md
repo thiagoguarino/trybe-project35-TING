@@ -1,8 +1,8 @@
 ## Trybe Project 35 - T.I.N.G - TRYBE IS NOT GOOGLE
 
-- MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)
-
 ## PROJECT OVERVIEW
+
+  **MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)**
 
   This is project #5 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/).
 
